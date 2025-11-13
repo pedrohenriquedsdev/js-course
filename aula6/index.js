@@ -1,16 +1,13 @@
-let nome = 'João'; //Declaro e Inicializo
-nome = 'Pedro' //Inicializo
-let nome2; // Apenas Declaro
+const primeiroNumero = 1;
+const segundoNumero = 2;
 
-console.log(nome, 'nasceu em 1894.')
-console.log(nome2);
+const resultado = primeiroNumero + segundoNumero; //const impede a reatribuição da variável mas não a modificaqção do valor
+console.log(resultado);
 
 
-//Regras Importantes
 
-// Não podemos criar varáiveis que comecem com numeros
-// Variáveis precisam ter nomes que façam sentido
-// Sem espaços
-// Usamos camelCase e nao snake_case
-// Case-sensitive (Letras maiúsculas e minúsculas fazem diferença!)
-// Não podemos redeclarar variáveis com Let!
+// 🔹 Com const, você não pode trocar a variável, mas pode mexer no que ela guarda.
+
+// Se for um valor simples (número, string, boolean), não há o que mudar — ele é imutável.
+
+// Mas se for algo complexo (array, objeto, função), você pode alterar o conteúdo interno, só não pode reatribuir a variável para outro valor.
